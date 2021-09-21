@@ -14,6 +14,7 @@ focus_mode = 2
 mouse_filter = 2
 theme = ExtResource( 1 )
 __meta__ = {
+"_edit_horizontal_guides_": [ -174.846 ],
 "_edit_use_anchors_": false
 }
 
