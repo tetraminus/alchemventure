@@ -12,7 +12,12 @@ config_version=4
 
 config/name="alchemventure"
 run/main_scene="res://scenes/menu.tscn"
+boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.png"
+
+[global]
+
+anti=false
 
 [input]
 
@@ -41,3 +46,4 @@ common/enable_pause_aware_picking=true
 2d/snapping/use_gpu_pixel_snap=true
 quality/shadows/filter_mode=0
 environment/default_environment="res://default_env.tres"
+quality/dynamic_fonts/use_oversampling=false

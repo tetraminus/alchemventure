@@ -1,8 +1,17 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://THEtheme.tres" type="Theme" id=1]
+[ext_resource path="res://scenes/menu.gd" type="Script" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = -0.289978
+margin_top = 0.144989
+margin_right = -0.289978
+margin_bottom = 0.14502
+mouse_filter = 2
+theme = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -12,5 +21,19 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_right = 12.0
-margin_bottom = 20.0
+margin_left = -264.5
+margin_top = -85.5
+margin_right = 264.5
+margin_bottom = 85.5
+theme = ExtResource( 1 )
+action_mode = 0
+text = "START"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="menuscript" type="Node" parent="Button"]
+script = ExtResource( 2 )
+
+[connection signal="button_down" from="Button" to="Button/menuscript" method="_on_Button_button_down"]
+[connection signal="pressed" from="Button" to="Button/menuscript" method="_on_Button_pressed"]
