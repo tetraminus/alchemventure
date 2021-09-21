@@ -10,6 +10,7 @@ margin_left = -0.289978
 margin_top = 0.144989
 margin_right = -0.289978
 margin_bottom = 0.14502
+focus_mode = 2
 mouse_filter = 2
 theme = ExtResource( 1 )
 __meta__ = {
@@ -27,7 +28,6 @@ margin_right = 264.5
 margin_bottom = 85.5
 rect_pivot_offset = Vector2( 292.79, 140.355 )
 theme = ExtResource( 1 )
-action_mode = 0
 text = "START"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -37,4 +37,3 @@ __meta__ = {
 script = ExtResource( 2 )
 
 [connection signal="button_down" from="Button" to="Button/menuscript" method="_on_Button_button_down"]
-[connection signal="pressed" from="Button" to="Button/menuscript" method="_on_Button_pressed"]
