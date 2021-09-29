@@ -4,6 +4,8 @@
 [ext_resource path="res://objects/IMPORTANT/atlas0 #1992174.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
+radius = 7.5
+height = 15.5
 
 [node name="KinematicBody2D" type="KinematicBody2D"]
 script = ExtResource( 1 )
@@ -17,5 +19,5 @@ smoothing_enabled = true
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( -0.0629954, -2.18977 )
-scale = Vector2( 0.252595, 0.300691 )
+scale = Vector2( 0.188604, 0.220692 )
 texture = ExtResource( 2 )

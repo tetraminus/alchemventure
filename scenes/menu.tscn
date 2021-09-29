@@ -20,9 +20,9 @@ __meta__ = {
 
 [node name="Button" type="Button" parent="."]
 anchor_left = 0.5
-anchor_top = 0.5
+anchor_top = 0.498722
 anchor_right = 0.5
-anchor_bottom = 0.5
+anchor_bottom = 0.498722
 margin_left = -264.5
 margin_top = -85.5
 margin_right = 264.5

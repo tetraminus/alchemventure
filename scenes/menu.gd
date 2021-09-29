@@ -6,4 +6,4 @@ func _ready():
 
 func _on_Button_button_down():
 	print("switch!")
-	#get_tree().change_scene("res://scenes/test.tscn")
+	get_tree().change_scene("res://scenes/test.tscn")
