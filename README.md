@@ -1,4 +1,4 @@
-# Achemy metroidvania
+# Alchemy metroidvania
 
 
 
