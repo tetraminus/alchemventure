@@ -35,8 +35,6 @@ func _physics_process(delta):
 		jump_frame_count += 1
 		
 	velocity = move_and_slide(velocity, Vector2.UP)
-		
-	print(jump_frame_count)
 			
 
 export (float, 0, 1.0) var acceleration = 0.25
