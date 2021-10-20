@@ -6,9 +6,9 @@
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -0.289978
+margin_left = -1.0567
 margin_top = 0.911713
-margin_right = -0.289978
+margin_right = -1.0567
 margin_bottom = 0.911743
 focus_mode = 2
 mouse_filter = 2
