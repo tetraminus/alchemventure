@@ -7,6 +7,7 @@ export (float, 0, 1.0) var friction = 0.1
 var velocity = Vector2.ZERO
 var jumping
 var jump_frame_count
+var inventory = []
 
 func get_input():
 	var dir = 0
@@ -35,6 +36,10 @@ func _physics_process(delta):
 		jump_frame_count += 1
 		
 	velocity = move_and_slide(velocity, Vector2.UP)
-			
+
+func _process(delta):
+	if inventory.size() > 0:
+		get_node("CanvasLayer/Control/Label").text = str(inventory[0])
+	
 
 export (float, 0, 1.0) var acceleration = 0.25
