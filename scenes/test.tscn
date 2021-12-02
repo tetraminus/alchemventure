@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://objects/IMPORTANT/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://tex/test_tileset.tres" type="TileSet" id=2]
 [ext_resource path="res://objects/potions/potion.tscn" type="PackedScene" id=3]
+[ext_resource path="res://objects/Enemys/galoomp.tscn" type="PackedScene" id=4]
 
 [node name="Node2D" type="Node2D"]
 
@@ -23,3 +24,7 @@ tile_data = PoolIntArray( 1900625, 0, 0, 1900626, 0, 0, 1966157, 0, 0, 1966158, 
 position = Vector2( 736, 552 )
 gravity_vec = Vector2( 0, 0 )
 gravity = 0.0
+effects = [ "ice" ]
+
+[node name="Node2D" parent="Base potion" instance=ExtResource( 4 )]
+position = Vector2( 520, -80 )
